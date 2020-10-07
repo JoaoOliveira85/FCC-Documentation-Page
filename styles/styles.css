@@ -1,0 +1,13 @@
+body: {
+    display: grid;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header: {
+    grid-column; 1/2;
+}
+
+main: {
+    grid-column: 2/4;
+}
