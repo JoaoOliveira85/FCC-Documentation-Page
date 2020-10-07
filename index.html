@@ -6,55 +6,68 @@
         <link href="styles/styles.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div id="nav-logo">HTML - FORMS</div>
-            <nav id="navbar">
-                <a href="#accept-charset">accept-charset</a>
-                <a href="#autocapitalize">autocapitalize</a>
-                <a href="#autocomplete">autocomplete</a>
-                <a href="#name">name</a>
-                <a href="#ref">ref</a>
-            </nav>
-        </header>
-        <main id="main-doc">
-            <h1>ATTRIBUTES</h1>
-            <section class="main-section">
-                <h2 id="accept-charset">accept-charset</h1>
-                <p>Comma-separated content types the server accepts.</p>
-                <p class="depricated">This attribute was removed in HTML5 and should not be used. Instead, use the accept attribute on 
-                    &lt;input type=file&gt; elements.</p>
-            </section>
-            <section class="main-section">
-                <h2 id="autocapitalize">autocapitalize</h2>
-                <p>Space-separated character encodings the server accepts. The browser uses them in the order in which they are listed. 
-                    The default value means the same encoding as the page.</p>
-                <p>(In previous versions of HTML, character encodings could also be delimited by commas.)</p>
-                <ul>
-                    <li>none: No automatic capitalization.</li>
-                    <li>sentences (default): Capitalize the first letter of each sentence.</li>
-                    <li>words: Capitalize the first letter of each word.</li>
-                    <li>characters: Capitalize all characters — that is, uppercase.</li>
-                </ul>
-            </section>
-            <section class="main-section">
-                <h2 id="autocomplete">autocomplete</h2>
-                <p>Indicates whether input elements can by default have their values automatically completed by the browser. autocomplete 
-                    attributes on form elements override it on &lt;form&gt;. Possible values:</p>
-                <ul>
-                    <li>off: The browser may not automatically complete entries. (Browsers tend to ignore this for suspected login forms; 
-                        see The autocomplete attribute and login fields.)</li>
-                    <li>on: The browser may automatically complete entries.</li>
-                </ul>
-            </section>
-            <section class="main-section">
-                <h2 id="name">name</h2>
-                <p>The name of the form. Deprecated as of HTML 4 (use id instead). It must be unique among the forms in a document and not 
-                    an empty string as of HTML5.</p>
-            </section>
-            <section class="main-section">
-                <h2 id="rel">rel</h2>
-                <p>Creates a hyperlink or annotation depending on the value, see the rel attribute for details.</p>
-            </section>
-        </main>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <div id="grid-container">
+            <header id="side-menu">
+                <div id="nav-logo">HTML - FORMS</div>
+                <nav id="navbar">
+                    <div class="menu-button">
+                        <a class="menu-link" id="accept-charset-lk" href="#accept-charset">accept-charset</a>
+                    </div>
+                    <div class="menu-button">
+                        <a class="menu-link" id="autocapitalize-lk" href="#autocapitalize">autocapitalize</a>
+                    </div>
+                    <div class="menu-button">
+                        <a class="menu-link" id="autocomplete-lk" href="#autocomplete">autocomplete</a>
+                    </div>
+                    <div class="menu-button">
+                        <a class="menu-link" id="name-lk" href="#name">name</a>
+                    </div>
+                    <div class="menu-button">
+                        <a class="menu-link" id="rel-lk" href="#rel">rel</a>
+                    </div>
+                </nav>
+            </header>
+            <main id="main-doc">
+                <div id="teste"><h1>ATTRIBUTES</h1></div>
+                <section class="main-section">
+                    <h2 id="accept-charset">accept-charset</h1>
+                    <p>Comma-separated content types the server accepts.</p>
+                    <p class="depricated">This attribute was removed in HTML5 and should not be used. Instead, use the accept attribute on 
+                        &lt;input type=file&gt; elements.</p>
+                </section>
+                <section class="main-section">
+                    <h2 id="autocapitalize">autocapitalize</h2>
+                    <p>Space-separated character encodings the server accepts. The browser uses them in the order in which they are listed. 
+                        The default value means the same encoding as the page.</p>
+                    <p>(In previous versions of HTML, character encodings could also be delimited by commas.)</p>
+                    <ul>
+                        <li>none: No automatic capitalization.</li>
+                        <li>sentences (default): Capitalize the first letter of each sentence.</li>
+                        <li>words: Capitalize the first letter of each word.</li>
+                        <li>characters: Capitalize all characters — that is, uppercase.</li>
+                    </ul>
+                </section>
+                <section class="main-section">
+                    <h2 id="autocomplete">autocomplete</h2>
+                    <p>Indicates whether input elements can by default have their values automatically completed by the browser. autocomplete 
+                        attributes on form elements override it on &lt;form&gt;. Possible values:</p>
+                    <ul>
+                        <li>off: The browser may not automatically complete entries. (Browsers tend to ignore this for suspected login forms; 
+                            see The autocomplete attribute and login fields.)</li>
+                        <li>on: The browser may automatically complete entries.</li>
+                    </ul>
+                </section>
+                <section class="main-section">
+                    <h2 id="name">name</h2>
+                    <p>The name of the form. Deprecated as of HTML 4 (use id instead). It must be unique among the forms in a document and not 
+                        an empty string as of HTML5.</p>
+                </section>
+                <section class="main-section">
+                    <h2 id="rel">rel</h2>
+                    <p>Creates a hyperlink or annotation depending on the value, see the rel attribute for details.</p>
+                </section>
+            </main>
+        </div>
     </body>
 </html>
