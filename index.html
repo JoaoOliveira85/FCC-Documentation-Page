@@ -26,18 +26,24 @@
                     <div class="menu-button">
                         <a class="menu-link" id="rel-lk" href="#rel">rel</a>
                     </div>
+                    <div class="menu-button">
+                        <a class="menu-link" id="action-lk" href="#action">action</a>
+                    </div>
+                    <div class="menu-button">
+                        <a class="menu-link" id="accept-charset-lk" href="#accept-charset">accept-charset</a>
+                    </div>
                 </nav>
             </header>
             <main id="main-doc">
-                <div id="title"><h1>ATTRIBUTES</h1></div>
-                <section class="main-section">
-                    <h2 id="accept-charset">accept-charset</h1>
+                <div class="title"><h1>ATTRIBUTES</h1><p>This element includes the global attributes.</p></div>
+                <section class="main-section" id="accept-charset">
+                    <header> <h2>accept-charset</header>
                     <p>Comma-separated content types the server accepts.</p>
                     <p class="depricated">This attribute was removed in HTML5 and should not be used. Instead, use the accept attribute on 
                         &lt;input type=file&gt; elements.</p>
                 </section>
-                <section class="main-section">
-                    <h2 id="autocapitalize">autocapitalize</h2>
+                <section class="main-section"  id="autocapitalize">
+                    <header><h2>autocapitalize</header>
                     <p>Space-separated character encodings the server accepts. The browser uses them in the order in which they are listed. 
                         The default value means the same encoding as the page.</p>
                     <p>(In previous versions of HTML, character encodings could also be delimited by commas.)</p>
@@ -48,8 +54,8 @@
                         <li>characters: Capitalize all characters — that is, uppercase.</li>
                     </ul>
                 </section>
-                <section class="main-section">
-                    <h2 id="autocomplete">autocomplete</h2>
+                <section class="main-section" id="autocomplete">
+                    <header><h2>autocomplete</h2></header>
                     <p>Indicates whether input elements can by default have their values automatically completed by the browser. autocomplete 
                         attributes on form elements override it on &lt;form&gt;. Possible values:</p>
                     <ul>
@@ -58,14 +64,27 @@
                         <li>on: The browser may automatically complete entries.</li>
                     </ul>
                 </section>
-                <section class="main-section">
-                    <h2 id="name">name</h2>
+                <section class="main-section" id="name">
+                    <header><h2>name</h2></header>
                     <p>The name of the form. Deprecated as of HTML 4 (use id instead). It must be unique among the forms in a document and not 
                         an empty string as of HTML5.</p>
                 </section>
-                <section class="main-section">
-                    <h2 id="rel">rel</h2>
+                <section class="main-section" id="rel">
+                    <header><h2>rel</h2></header>
                     <p>Creates a hyperlink or annotation depending on the value, see the rel attribute for details.</p>
+                </section>
+                <div class="title"><h1>Attributes for form submission</h1></div>
+                <section class="main-section" id="action">
+                        <header><h2>accept</h2><p>This element includes the global attributes.</p>/header>
+                        <p>Comma-separated content types the server accepts.</p>
+                        <p class="depricated">This attribute was removed in HTML5 and should not be used. Instead, use the accept attribute on 
+                            &lt;input type=file&gt; elements.</p>
+                </section>
+                <section class="main-section" id="accept-charset">
+                    <header><h2>accept-charset</h2></header>
+                    <p>Space-separated character encodings the server accepts. The browser uses them in the order in which they are listed. 
+                        The default value means the same encoding as the page.</p>
+                    <p>(In previous versions of HTML, character encodings could also be delimited by commas.)</p>
                 </section>
             </main>
         </div>

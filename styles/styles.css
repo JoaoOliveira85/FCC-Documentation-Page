@@ -51,7 +51,7 @@
         padding: 0px;
     }
 
-    #title {
+    .title {
         vertical-align: top;
         line-height: 40px;
     }
@@ -113,7 +113,7 @@
     }
 
 
-    #title {
+    .title {
         font-size: 13px;
     }
 
