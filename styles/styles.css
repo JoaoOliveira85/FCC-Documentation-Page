@@ -5,7 +5,9 @@
         font-size: 20px;
         line-height: 40px;
         font-weight: bolder;
-        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin: auto;
     }
 
     #grid-container {
@@ -38,7 +40,7 @@
         font: 1em sans-serif;
     }
 
-    .menu-link {
+    .nav-link {
         text-decoration: none;
         font-weight: bold;
         text-transform: uppercase;
@@ -61,6 +63,8 @@
 /*small window*/
 @media (max-width: 1000px) {
     #nav-logo {
+        display: bloc;
+        text-align: center;
         vertical-align: top;
         font-size: 15px;
         line-height: 40px;
@@ -105,7 +109,7 @@
         font: 10px sans-serif;
     }
 
-    .menu-link {
+    .nav-link {
         text-decoration: none;
         font-weight: none;
         text-transform: uppercase;
